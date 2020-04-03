@@ -1,0 +1,10 @@
+Entry (go short):
+set{QQQQtest, count(ind(QQQQ,close) above ind(QQQQ,MA(40)),1)}
+QQQQtest < 1
+atr(30) / close > 0.06
+rsi(3) > 95
+close > 9
+average volume (30) > 300000
+
+Exit:
+2% profit stop or two days
