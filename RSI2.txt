@@ -1,0 +1,11 @@
+Entry:
+set{inad, indposition(Accumulation Distribution, 5) * 100}
+rsi(2) < 1
+atr(20) / close > 0.06
+close > 0.1
+inad < 1
+Average Volume(90) > 300000
+market is not OTCBB
+
+Exit:
+2% profit stop or two days
